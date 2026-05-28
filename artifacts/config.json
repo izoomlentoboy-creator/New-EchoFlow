@@ -1,0 +1,35 @@
+{
+  "audio": {
+    "sample_rate": 16000,
+    "clip_seconds": 3.0,
+    "n_fft": 512,
+    "hop_length": 160,
+    "win_length": 400,
+    "n_mels": 64,
+    "fmin": 50.0,
+    "fmax": 8000.0,
+    "preemphasis": 0.97
+  },
+  "features": {
+    "n_acoustic": 39
+  },
+  "train": {
+    "epochs": 30,
+    "batch_size": 64,
+    "lr": 0.002,
+    "weight_decay": 0.0001,
+    "val_split": 0.15,
+    "test_split": 0.15,
+    "seed": 1337,
+    "samples_per_class": 500,
+    "label_smoothing": 0.05,
+    "early_stop_patience": 6
+  },
+  "classes": [
+    "healthy",
+    "hyperfunctional",
+    "paralysis",
+    "neurological",
+    "inflammatory"
+  ]
+}

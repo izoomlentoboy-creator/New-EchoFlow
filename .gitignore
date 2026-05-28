@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# real corpora are large / private - keep out of git
+data/real/
+data/raw/
+*.wav
+*.flac
+!tests/**/*.wav
+
+# keep trained artifacts but ignore scratch
+/tmp/
+artifacts/scratch/

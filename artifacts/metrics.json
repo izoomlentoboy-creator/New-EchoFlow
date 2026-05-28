@@ -1,0 +1,41 @@
+{
+  "test_accuracy": 0.8747,
+  "test_macro_f1": 0.8735,
+  "screening_sensitivity": 0.9767,
+  "screening_specificity": 0.9733,
+  "severity_mae": 0.11,
+  "calibration_temperature": 1.4446,
+  "per_class": {
+    "healthy": {
+      "precision": 0.9125,
+      "recall": 0.9733,
+      "f1": 0.9419,
+      "support": 75
+    },
+    "hyperfunctional": {
+      "precision": 0.8919,
+      "recall": 0.88,
+      "f1": 0.8859,
+      "support": 75
+    },
+    "paralysis": {
+      "precision": 0.8923,
+      "recall": 0.7733,
+      "f1": 0.8286,
+      "support": 75
+    },
+    "neurological": {
+      "precision": 0.9241,
+      "recall": 0.9733,
+      "f1": 0.9481,
+      "support": 75
+    },
+    "inflammatory": {
+      "precision": 0.7532,
+      "recall": 0.7733,
+      "f1": 0.7632,
+      "support": 75
+    }
+  },
+  "data_source": "synthetic"
+}
